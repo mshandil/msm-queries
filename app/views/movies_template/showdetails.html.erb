@@ -12,10 +12,17 @@
   <dt>Duration</dt>
   <dd><%= @the_movie.duration %></dd>
 
+   <dt>Description</dt>
+  <dd><%= @the_movie.description %></dd>
+
 <img src="<%= @the_movie.image %>" width="200">
 
 <% matching_director = Director.where({ id: @the_movie.director_id }) %>
 <dt>Director</dt>
 <dd><%= matching_director.at(0).name %></dd>
+<dt>Created at</dt>
+<dd><%= @the_movie.created_at %></dd>
+<dt>Updated at</dt>
+<dd><%= @the_movie.updated_at %></dd>
 
 </dl>
