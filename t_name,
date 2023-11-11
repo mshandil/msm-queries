@@ -1,0 +1,4 @@
+ id | first_name | last_name | date_of_birth | street_address_1 | street_address_2 | city | state | zip | phone | notes | created_at 
+----+------------+-----------+---------------+------------------+------------------+------+-------+-----+-------+-------+------------
+(0 rows)
+
